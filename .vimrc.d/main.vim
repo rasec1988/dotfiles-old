@@ -227,4 +227,10 @@ function! VisualSelection(direction, extra_filter) range
 	let @" = l:saved_reg
 endfunction
 
+set tw=999
+set colorcolumn=
+
+vnoremap <S-Tab> <gv
+vnoremap <Tab> >gv
+
 " END OF FILE

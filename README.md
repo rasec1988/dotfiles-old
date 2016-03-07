@@ -36,10 +36,6 @@ Platform support
 ---
 I have only tested this on ubuntu and debian based systems.
 
-Legacy Dotfiles
----
-Looking for my old dotfiles? I moved them [here](https://github.com/mxaddict/dotfiles_legacy.git)
-
 Docs
 ---
 TODO: Make these...

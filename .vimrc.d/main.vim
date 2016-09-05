@@ -5,8 +5,7 @@ if $COLORTERM == 'mate-terminal' || $COLORTERM == 'gnome-terminal'
 endif
 
 " Now that we have 256bit color, we can set our colorscheme
-" color vimtana
-color jellybeans
+color xoria256
 
 " Turn on auto indention and make it smart! :)
 set autoindent
@@ -19,9 +18,9 @@ set scrolloff=8
 " Add a bit extra margin to the left
 set foldcolumn=1
 
-" Make sure that we have a text guide for typing at only 80 chars MAX...
-set textwidth=78
-set colorcolumn=80
+" Make sure that we have a text guide for typing at only 80 chars MAX... Only for barry :P
+set textwidth=999
+set colorcolumn=
 
 " Turn backup off, since most stuff is in SVN, git ,etc.. anyway...  set nobackup
 set nowb
@@ -227,10 +226,13 @@ function! VisualSelection(direction, extra_filter) range
 	let @" = l:saved_reg
 endfunction
 
-set tw=999
-set colorcolumn=
-
+" shift tab and tab
 vnoremap <S-Tab> <gv
 vnoremap <Tab> >gv
+
+" set transparency
+let g:seiya_auto_enable=1
+" set tab colors to Black
+hi SpecialKey ctermfg=Black
 
 " END OF FILE

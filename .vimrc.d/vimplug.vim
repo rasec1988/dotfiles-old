@@ -26,7 +26,6 @@ Plug 'plasticboy/vim-markdown'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
 Plug 'shawncplus/phpcomplete.vim'
-Plug 'skatzteyp/jellybeans.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tikhomirov/vim-glsl'
 Plug 'tobyS/vmustache'
@@ -36,6 +35,8 @@ Plug 'tpope/vim-haml'
 Plug 'tpope/vim-surround'
 Plug 'vim-scripts/matchit.zip'
 Plug 'xsbeats/vim-blade'
+Plug 'skatzteyp/seiya.vim'
+Plug 'vim-scripts/xoria256.vim'
 
 " Let vim plug know we are done
 call plug#end()

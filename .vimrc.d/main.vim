@@ -235,4 +235,12 @@ let g:seiya_auto_enable=1
 " set tab colors to Black
 hi SpecialKey ctermfg=Black
 
+filetype plugin indent on
+" show existing tab with 2 spaces width
+set tabstop=2
+" when indenting with '>', use 2 spaces width
+set shiftwidth=2
+" On pressing tab, insert 2 spaces
+set expandtab
+
 " END OF FILE

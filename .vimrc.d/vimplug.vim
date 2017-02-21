@@ -40,7 +40,7 @@ Plug 'vim-scripts/xoria256.vim'
 Plug 'mhartington/vim-angular2-snippets'
 Plug 'Shougo/neocomplcache'
 Plug 'Shougo/neosnippet'
-Plug 'Shougo/neosnipper-snippets'
+Plug 'Shougo/neosnippet-snippets'
 
 " Let vim plug know we are done
 call plug#end()

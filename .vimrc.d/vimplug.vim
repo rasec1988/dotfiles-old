@@ -37,6 +37,7 @@ Plug 'vim-scripts/matchit.zip'
 Plug 'xsbeats/vim-blade'
 Plug 'skatzteyp/seiya.vim'
 Plug 'vim-scripts/xoria256.vim'
+Plug 'magarcia/vim-angular2-snippets'
 
 " Let vim plug know we are done
 call plug#end()

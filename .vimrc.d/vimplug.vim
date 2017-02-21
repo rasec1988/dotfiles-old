@@ -38,6 +38,7 @@ Plug 'xsbeats/vim-blade'
 Plug 'skatzteyp/seiya.vim'
 Plug 'vim-scripts/xoria256.vim'
 Plug 'mhartington/vim-angular2-snippets'
+Plug 'Shougo/neosnippet'
 
 " Let vim plug know we are done
 call plug#end()

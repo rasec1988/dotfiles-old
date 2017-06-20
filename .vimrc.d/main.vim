@@ -1,3 +1,5 @@
+let mapleader = '¥'
+
 " Check if we have 256 support
 if $COLORTERM == 'mate-terminal' || $COLORTERM == 'gnome-terminal'
 	" Now we know we have it, then use it!
@@ -237,9 +239,9 @@ hi SpecialKey ctermfg=Black
 
 filetype plugin indent on
 " show existing tab with 2 spaces width
-set tabstop=2
+set tabstop=4
 " when indenting with '>', use 2 spaces width
-set shiftwidth=2
+set shiftwidth=4
 " On pressing tab, insert 2 spaces
 set expandtab
 

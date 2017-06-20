@@ -245,4 +245,7 @@ set shiftwidth=4
 " On pressing tab, insert 2 spaces
 set expandtab
 
+" Remove other chars on backspace
+set backspace=indent,eol,start;
+
 " END OF FILE

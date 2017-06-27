@@ -75,7 +75,7 @@ set ignorecase
 set smartcase
 
 " Enable mouse so we can move splits and stuff
-set mouse=
+set mouse=a
 
 " Enable system clipboard IF TMUX is not used
 if $TMUX == ''

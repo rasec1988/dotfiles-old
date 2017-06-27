@@ -130,3 +130,4 @@ then
 	source /etc/profile.d/rvm.sh
 fi
 
+export PATH=$HOME/.nodebrew/current/bin:$PATH

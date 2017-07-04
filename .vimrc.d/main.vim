@@ -244,7 +244,8 @@ set tabstop=4
 set shiftwidth=4
 " On pressing tab, insert 2 spaces
 set expandtab
-
+" Use OS clipboard
+set clipboard=unnamed
 " Remove other chars on backspace
 set backspace=indent,eol,start;
 

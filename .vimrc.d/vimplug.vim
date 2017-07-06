@@ -39,7 +39,7 @@ Plug 'skatzteyp/seiya.vim'
 Plug 'skatzteyp/vim-ultisnips-angular2'
 " Plug 'vim-scripts/xoria256.vim'
 Plug 'nikvdp/ejs-syntax'
-Plug 'nanotech/jellybeans'
+Plug 'nanotech/jellybeans.vim'
 
 " Let vim plug know we are done
 call plug#end()

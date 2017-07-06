@@ -37,8 +37,9 @@ Plug 'vim-scripts/matchit.zip'
 Plug 'xsbeats/vim-blade'
 Plug 'skatzteyp/seiya.vim'
 Plug 'skatzteyp/vim-ultisnips-angular2'
-Plug 'vim-scripts/xoria256.vim'
+" Plug 'vim-scripts/xoria256.vim'
 Plug 'nikvdp/ejs-syntax'
+Plug 'nanotech/jellybeans'
 
 " Let vim plug know we are done
 call plug#end()

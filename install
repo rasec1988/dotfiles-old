@@ -45,7 +45,7 @@ then
 	# Now clone the repo...
 	git clone https://github.com/skatzteyp/dotfiles.git $DOTFILES_TMP
 else
-	cd $DOTFILES_TMP && git fetch && git checkout origin/master
+	cd $DOTFILES_TMP && git fetch && git checkout origin/mac
 fi
 
 # Check if we have  ~/.vimrc.d

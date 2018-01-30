@@ -40,6 +40,7 @@ Plug 'skatzteyp/vim-ultisnips-angular2'
 " Plug 'vim-scripts/xoria256.vim'
 Plug 'nikvdp/ejs-syntax'
 Plug 'nanotech/jellybeans.vim'
+Plug 'csscomb/vim-csscomb'
 
 " Let vim plug know we are done
 call plug#end()

@@ -112,5 +112,11 @@ then
 	vim +Tmuxline +"TmuxlineSnapshot! ~/.tmuxline.conf" +qall
 fi
 
+if [ ! -d ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh ]
+then
+    git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+fi
+
+
 # Install done! WEW!
 printf "Install DONE! WEW!\n"

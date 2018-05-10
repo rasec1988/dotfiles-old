@@ -42,6 +42,7 @@ Plug 'nikvdp/ejs-syntax'
 Plug 'nanotech/jellybeans.vim'
 Plug 'csscomb/vim-csscomb'
 Plug 'isRuslan/vim-es6'
+Plug 'mxw/vim-jsx'
 
 " Let vim plug know we are done
 call plug#end()

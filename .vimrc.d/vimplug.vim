@@ -42,7 +42,7 @@ Plug 'nikvdp/ejs-syntax'
 Plug 'nanotech/jellybeans.vim'
 Plug 'csscomb/vim-csscomb'
 Plug 'isRuslan/vim-es6'
-Plug 'mxw/vim-jsx'
+Plug 'chemzqm/vim-jsx-improve'
 Plug 'posva/vim-vue'
 
 " Let vim plug know we are done

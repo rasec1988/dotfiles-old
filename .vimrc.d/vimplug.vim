@@ -44,6 +44,7 @@ Plug 'csscomb/vim-csscomb'
 Plug 'isRuslan/vim-es6'
 Plug 'chemzqm/vim-jsx-improve'
 Plug 'posva/vim-vue'
+Plug 'etdev/vim-hexcolor'
 
 " Let vim plug know we are done
 call plug#end()

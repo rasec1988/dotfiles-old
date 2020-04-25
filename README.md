@@ -19,7 +19,7 @@ Installation
 ```shell
 # Install requirements START
 ## FOR Ubuntu/Debian
-sudo apt-get install vim-gtk curl git cmake build-essential python-dev tmux -y
+sudo apt-get install vim-gtk curl git cmake build-essential python-dev python3-dev tmux -y
 
 ## OR
 
@@ -28,7 +28,7 @@ pact install vim curl git cmake gcc-core gcc-g++ python tmux
 
 # Install requirements END
 
-# seriously, that's it! and follow the prompts!
+# Follow the prompts!
 sh <(curl -sL https://raw.githubusercontent.com/skatzteyp/dotfiles/master/install)
 ```
 

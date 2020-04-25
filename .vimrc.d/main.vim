@@ -1,4 +1,4 @@
-let mapleader = '¥'
+let mapleader = '\'
 
 " Check if we have 256 support
 if $COLORTERM == 'mate-terminal' || $COLORTERM == 'gnome-terminal'

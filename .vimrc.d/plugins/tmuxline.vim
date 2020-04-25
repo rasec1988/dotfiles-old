@@ -1,5 +1,5 @@
 " set theme to use lightline
-let g:tmuxline_theme = 'lightline_visual'
+let g:tmuxline_theme = 'jellybeans'
 
 " We need all the things!
 let g:tmuxline_preset = 'full'

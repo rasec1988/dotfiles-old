@@ -43,9 +43,9 @@ mkdir -p ${XDG_CONFIG_HOME}
 if [ ! -d $DOTFILES_TMP ]
 then
 	# Now clone the repo...
-	git clone https://github.com/skatzteyp/dotfiles.git $DOTFILES_TMP
+	git clone https://github.com/skatzteyp/dotfiles.git $DOTFILES_TMP && cd $DOTFILES_TMP && git checkout mac
 else
-	cd $DOTFILES_TMP && git fetch && git checkout origin/master
+	cd $DOTFILES_TMP && git fetch && git checkout origin/mac
 fi
 
 # Check if we have  ~/.vimrc.d
@@ -111,6 +111,12 @@ then
 	# Setup Promptline!
 	vim +Tmuxline +"TmuxlineSnapshot! ~/.tmuxline.conf" +qall
 fi
+
+if [ ! -d ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh ]
+then
+    git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+fi
+
 
 # Install done! WEW!
 printf "Install DONE! WEW!\n"

@@ -62,13 +62,13 @@ then
 fi
 
 # Aliases to enable color support for these
-alias ls='ls --color=auto'
-alias dir='dir --color=auto'
-alias vdir='vdir --color=auto'
+# alias ls='ls --color=auto'
+# alias dir='dir --color=auto'
+# alias vdir='vdir --color=auto'
 
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
+# alias grep='grep --color=auto'
+# alias fgrep='fgrep --color=auto'
+# alias egrep='egrep --color=auto'
 
 # some more ls aliases
 alias ll='ls -alF'
@@ -130,3 +130,4 @@ then
 	source /etc/profile.d/rvm.sh
 fi
 
+export PATH=$HOME/.nodebrew/current/bin:$PATH

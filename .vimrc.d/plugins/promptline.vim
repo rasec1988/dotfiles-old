@@ -1,5 +1,5 @@
 " Use our lightline colors!
-let g:promptline_theme = 'lightline_insert'
+let g:promptline_theme = 'jelly'
 
 " We don't need much
 let g:promptline_preset = {

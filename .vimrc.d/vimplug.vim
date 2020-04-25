@@ -37,8 +37,14 @@ Plug 'vim-scripts/matchit.zip'
 Plug 'xsbeats/vim-blade'
 Plug 'skatzteyp/seiya.vim'
 Plug 'skatzteyp/vim-ultisnips-angular2'
-Plug 'vim-scripts/xoria256.vim'
+" Plug 'vim-scripts/xoria256.vim'
 Plug 'nikvdp/ejs-syntax'
+Plug 'nanotech/jellybeans.vim'
+Plug 'csscomb/vim-csscomb'
+Plug 'isRuslan/vim-es6'
+Plug 'chemzqm/vim-jsx-improve'
+Plug 'posva/vim-vue'
+Plug 'etdev/vim-hexcolor'
 
 " Let vim plug know we are done
 call plug#end()
